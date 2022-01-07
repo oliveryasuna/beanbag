@@ -7,3 +7,6 @@
 [submodule "beanbag-value"]
 	path = beanbag-value
 	url = https://github.com/oliveryasuna/beanbag-value
+[submodule "beanbag-binding"]
+	path = beanbag-binding
+	url = https://github.com/oliveryasuna/beanbag-binding
