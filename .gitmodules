@@ -4,3 +4,6 @@
 [submodule "beanbag-collection"]
 	path = beanbag-collection
 	url = https://github.com/oliveryasuna/beanbag-collection
+[submodule "beanbag-value"]
+	path = beanbag-value
+	url = https://github.com/oliveryasuna/beanbag-value

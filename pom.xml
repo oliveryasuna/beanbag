@@ -34,6 +34,7 @@
 
     <modules>
         <module>beanbag-core</module>
+        <module>beanbag-value</module>
         <module>beanbag-collection</module>
     </modules>
 
