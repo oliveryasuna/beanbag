@@ -1,0 +1,6 @@
+[submodule "beanbag-core"]
+	path = beanbag-core
+	url = https://github.com/oliveryasuna/beanbag-core
+[submodule "beanbag-collection"]
+	path = beanbag-collection
+	url = https://github.com/oliveryasuna/beanbag-collection
