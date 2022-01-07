@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2022 Oliver Yasuna
+  ~
+  ~ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+  ~
+  ~ 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+  ~ 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation
+  ~     and/or other materials provided with the distribution.
+  ~ 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without
+  ~      specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  ~ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+  ~ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  ~ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+  ~ TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--==================================================
+    ==== Core
+    ==================================================-->
+
+    <groupId>com.oliveryasuna.beanbag</groupId>
+    <artifactId>beanbag-parent</artifactId>
+    <version>1</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>beanbag-core</module>
+        <module>beanbag-collection</module>
+    </modules>
+
+    <properties>
+        <!--=========================
+        ==== Encoding
+        =========================-->
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <!--=========================
+        ==== Java version
+        =========================-->
+
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--=========================
+            ==== Miscellaneous
+            =========================-->
+
+            <!-- Oliver's Commons Language. -->
+            <dependency>
+                <groupId>com.oliveryasuna.commons</groupId>
+                <artifactId>commons-language</artifactId>
+                <version>2.0.0</version>
+            </dependency>
+
+            <!--=========================
+            ==== Testing
+            =========================-->
+
+            <!-- Oliver's JUnit Lib. -->
+            <dependency>
+                <groupId>com.oliveryasuna</groupId>
+                <artifactId>junit-lib</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+
+                <scope>test</scope>
+            </dependency>
+
+            <!-- JUnit. -->
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-engine</artifactId>
+                <version>5.8.1</version>
+
+                <scope>test</scope>
+            </dependency>
+
+            <!-- Hamcrest. -->
+            <dependency>
+                <groupId>org.hamcrest</groupId>
+                <artifactId>hamcrest-core</artifactId>
+                <version>2.2</version>
+
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies/>
+
+    <!--==================================================
+    ==== Build
+    ==================================================-->
+
+    <build/>
+
+    <reporting/>
+
+    <!--==================================================
+    ==== Details
+    ==================================================-->
+
+    <name>Beanbag Parent</name>
+    <description/> <!-- TODO. -->
+    <url/> <!-- TODO. -->
+    <inceptionYear>2021</inceptionYear>
+    <licenses>
+        <license>
+            <name>BSD 3-Clause</name>
+            <url>https://opensource.org/licenses/BSD-3-Clause</url>
+            <comments>Copyright 2021 Oliver Yasuna</comments>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <organization>
+        <name>Oliver Yasuna</name>
+        <url>https://oliveryasuna.github.io/</url>
+    </organization>
+    <developers>
+        <developer>
+            <id>oliver-yasuna</id>
+
+            <name>Oliver Yasuna</name>
+            <url>https://oliveryasuna.github.io/</url>
+
+            <timezone>America/New_York</timezone>
+        </developer>
+    </developers>
+    <contributors/>
+
+    <!--==================================================
+    ==== Environment
+    ==================================================-->
+
+    <issueManagement/> <!-- TODO. -->
+    <ciManagement/>
+
+    <mailingLists/>
+
+    <scm/> <!-- TODO. -->
+
+    <repositories/>
+    <pluginRepositories/>
+
+    <distributionManagement/>
+
+    <profiles/>
+
+</project>
