@@ -266,24 +266,50 @@
   ==================================================-->
 
   <name>${project.groupId}:${project.artifactId}</name>
-  <description/> <!-- TODO. -->
-  <url/> <!-- TODO. -->
-  <inceptionYear/> <!-- TODO. -->
-  <licenses/> <!-- TODO. -->
-  <organization/> <!-- TODO. -->
-  <developers/> <!-- TODO. -->
+  <description>Beanbag parent.</description>
+  <url>https://github.com/oliveryasuna/beanbag</url>
+  <inceptionYear>2023</inceptionYear>
+  <licenses>
+    <license>
+      <name>BSD 3-Clause</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+      <comments>Copyright 2021 Oliver Yasuna</comments>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <organization>
+    <name>Oliver Yasuna</name>
+    <url>https://oliveryasuna.github.io/</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>oliver-yasuna</id>
+
+      <name>Oliver Yasuna</name>
+      <url>https://oliveryasuna.github.io/</url>
+
+      <timezone>America/New_York</timezone>
+    </developer>
+  </developers>
   <contributors/>
 
   <!--==================================================
   ==== Environment
   ==================================================-->
 
-  <issueManagement/> <!-- TODO. -->
-  <ciManagement/> <!-- TODO. -->
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/oliveryasuna/beanbag/issues</url>
+  </issueManagement>
+  <ciManagement/>
 
   <mailingLists/>
 
-  <scm/> <!-- TODO. -->
+  <scm>
+    <url>https://github.com/oliveryasuna/beanbag</url>
+    <connection>scm:git:git://github.com/oliveryasuna/beanbag.git</connection>
+    <developerConnection>scm:git:git://github.com/oliveryasuna/beanbag.git</developerConnection>
+  </scm>
 
   <repositories/>
   <pluginRepositories/>
