@@ -45,7 +45,7 @@
       <dependency>
         <groupId>com.oliveryasuna</groupId>
         <artifactId>commons-language</artifactId>
-        <version>5.4.0</version>
+        <version>5.5.0</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
