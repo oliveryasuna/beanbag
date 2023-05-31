@@ -386,7 +386,7 @@
     </profile>
 
     <profile>
-      <id>release-nexus</id>
+      <id>release</id>
 
       <build>
         <plugins>
